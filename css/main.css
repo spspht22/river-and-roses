@@ -1,0 +1,223 @@
+body {
+	margin: 0 auto;
+	width: 100vw;
+}
+
+/*navbar*/
+
+.navbar {
+	background: #f05f40b5;
+}
+.navbar-left a, .navbar-right a {
+	font-family: 'Roboto', sans-serif;
+	color: #f05f40;
+
+}
+
+/*header*/
+header.masthead {
+	background-image: url("../img/guitarclose.jpg");
+	background-position: center center;
+	background-size: cover;
+	min-height: 650px;
+}
+
+.btn {
+    font-weight: 650;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 300px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.btn-primary {
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.overlay .container {
+	position: absolute;
+	bottom: 43%;
+  	left: 14%;
+	z-index: 20;
+	color: white;
+	text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+
+
+.live {
+	font-weight: 300;
+    background: url(/content/img/global/1px-transparent-black.png);
+/*    border: 7px solid #AAA;*/
+    color: #f05f40;
+    font-size: 42px;
+    width: 900px;
+    text-align: center;
+    margin: auto;
+/*    margin-top: 50px;*/
+/*    padding: 20px 0;*/
+    border-radius: 10px;
+    text-shadow: 0px 0px 20px #000;
+    position: absolute;
+    bottom: 50%;
+    left: 46%;
+}
+
+@media screen and (max-width: 1270px) and (min-width: 1120px) {
+	.live {
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width: 1119px) and (min-width: 815px) {
+	.live {
+		left: 18%;
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width: 814px) and (min-width: 550px) {
+	.live {
+		left: -10%;
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 549px) and (min-width: 384px) {
+	.live {
+		left: -46%;
+		bottom: 16%;
+		font-size: 10px;
+	}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1384px) {
+	.overlay .container {
+		bottom: 36%;
+		left: 6%;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.overlay .container {
+		bottom: 36%;
+		left: 3%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.overlay .container {
+		bottom: 16%;
+		left: 6%;
+	}
+}
+
+@media screen and (min-width: 573px) and (max-width: 767px) {
+	.overlay .container {
+		bottom: 7%;
+		left: 4%;
+	}
+}
+@media screen and (min-width: 375px) and (max-width: 572px) {
+	.overlay .container {
+		bottom: 0%;
+    	left: 1%;
+	}
+	.overlay h1 {
+		font-size: 12px;
+	}
+	.overlay p {
+		font-size: 11px;
+	}
+	.overlay a {
+		font-weight: 450;
+    	font-size: 11px;
+	}
+}
+
+/*about*/
+#about {
+	background-color: #f05f40;
+	min-height: 450px;
+}
+
+#about hr {
+	background-color: #fac8c2;
+	height: 1px;
+	width: 90px;
+}
+
+#about p {
+	color: #fac8c2;
+}
+
+/*services*/
+
+#services {
+	min-height: 450px;
+}
+
+#services hr {
+	background-color: #f05f40;
+	height: 1px;
+	width: 90px;
+}
+
+#services .fa {
+	font-size: 55px;
+	margin-bottom: 20px;
+	color: #f05f40;
+}
+
+#services p {
+	color: #a69393;
+}
+
+/*gallery*/
+
+#gallery img {
+	min-width: 100%;
+	max-height: 337.59px;
+}
+
+/*#gallery img:nth-child(3) {
+	height: 337.59px;
+}*/
+
+/*contact*/
+
+#contact hr {
+	background-color: #f05f40;
+	height: 1px;
+	width: 90px;
+}
+
+#contact .fa {
+		font-size: 55px;
+	margin-bottom: 20px;
+	color: #f05f40;
+}
+
+.book_us {
+	color: #f05f40;
+}
+
+.book_us:hover {
+	color: #f05f40;
+}
+
+.fa .fa-instagram {
+	font-size: 10px;
+}
+
+#contact .float-right p {
+	color: #f05f40;
+	font-size: 10px;
+}
+
+/*google map api*/
+#myMap {
+	height: 300px;
+	width: 300px;
+}
